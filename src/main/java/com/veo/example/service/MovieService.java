@@ -1,11 +1,11 @@
 package com.veo.example.service;
 
-import java.util.List;
-
 import com.veo.example.model.Movie;
+
+import java.util.stream.Stream;
 
 public interface MovieService {
 
-	List<Movie> findMoviesByTitle(String title);
+	Stream<Movie> findMoviesByTitle(String title);
 	
 }

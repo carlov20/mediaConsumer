@@ -33,9 +33,10 @@ dependencies {
     compile("com.fasterxml.jackson.core:jackson-databind")
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.apache.commons:commons-lang3:3.4')
-	
+
 	testCompile('org.codehaus.groovy:groovy-all:2.4.4')
 	testCompile('org.spockframework:spock-core:1.0-groovy-2.4')
+	testCompile 'org.spockframework:spock-spring:1.0-groovy-2.4'
 }
 
 

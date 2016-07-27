@@ -1,10 +1,10 @@
 package com.veo.example.service;
 
-import java.util.List;
+import com.veo.example.model.FullAlbum;
 
-import com.veo.example.model.Album;
+import java.util.stream.Stream;
 
 public interface MusicService {
 
-	List<Album> findByAlbumTitle(String albumTitle);
+	Stream<FullAlbum> findByAlbumTitle(String albumTitle);
 }
